@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F43771C2AF908BD008406DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43771B2AF908BD008406DE /* AppDelegate.swift */; };
+		2F43771E2AF908BD008406DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43771D2AF908BD008406DE /* SceneDelegate.swift */; };
+		2F4377202AF908BD008406DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43771F2AF908BD008406DE /* ViewController.swift */; };
+		2F4377232AF908BD008406DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4377212AF908BD008406DE /* Main.storyboard */; };
+		2F4377252AF908BE008406DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4377242AF908BE008406DE /* Assets.xcassets */; };
+		2F4377282AF908BE008406DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4377262AF908BE008406DE /* LaunchScreen.storyboard */; };
+		2F9C09B32AF90BA400801AF8 /* StreamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C09B12AF90BA400801AF8 /* StreamListViewController.swift */; };
+		2F9C09B42AF90BA400801AF8 /* StreamListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C09B22AF90BA400801AF8 /* StreamListViewController.xib */; };
+		2F9C09B82AF90BB500801AF8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C09B62AF90BB500801AF8 /* HomeViewController.swift */; };
+		2F9C09B92AF90BB500801AF8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C09B72AF90BB500801AF8 /* HomeViewController.xib */; };
+		2F9C09BC2AF90D3500801AF8 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2F9C09BB2AF90D3500801AF8 /* IQKeyboardManagerSwift */; };
+		2F9C09BF2AF90D9C00801AF8 /* ClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C09BE2AF90D9C00801AF8 /* ClientManager.swift */; };
+		2F9C09C22AF90F2600801AF8 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C09C12AF90F2600801AF8 /* Auth.swift */; };
+		2F9C09C52AF9180E00801AF8 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 2F9C09C42AF9180E00801AF8 /* netfox */; };
+		2F9C09C72AF91A0800801AF8 /* Streamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C09C62AF91A0800801AF8 /* Streamer.swift */; };
+		2F9C09CA2AF91BD400801AF8 /* StreamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C09C82AF91BD400801AF8 /* StreamCell.swift */; };
+		2F9C09CB2AF91BD400801AF8 /* StreamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C09C92AF91BD400801AF8 /* StreamCell.xib */; };
+		2F9C09D02AF9202E00801AF8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2F9C09CF2AF9202E00801AF8 /* Kingfisher */; };
+		2F9C09D32AF921C100801AF8 /* MACH-SPS in Frameworks */ = {isa = PBXBuildFile; productRef = 2F9C09D22AF921C100801AF8 /* MACH-SPS */; };
+		2F9C09D62AF9243100801AF8 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C09D42AF9243100801AF8 /* PlayerViewController.swift */; };
+		2F9C09D72AF9243100801AF8 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C09D52AF9243100801AF8 /* PlayerViewController.xib */; };
+		2F9C09DA2AF924A400801AF8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F9C09D92AF924A400801AF8 /* SnapKit */; };
+		2F9C09DE2AF9269000801AF8 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C09DC2AF9269000801AF8 /* BroadcastViewController.swift */; };
+		2F9C09DF2AF9269000801AF8 /* BroadcastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C09DD2AF9269000801AF8 /* BroadcastViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F4377182AF908BD008406DE /* Strimus-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strimus-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F43771B2AF908BD008406DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F43771D2AF908BD008406DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F43771F2AF908BD008406DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F4377222AF908BD008406DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F4377242AF908BE008406DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F4377272AF908BE008406DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F4377292AF908BE008406DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9C09B12AF90BA400801AF8 /* StreamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamListViewController.swift; sourceTree = "<group>"; };
+		2F9C09B22AF90BA400801AF8 /* StreamListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StreamListViewController.xib; sourceTree = "<group>"; };
+		2F9C09B62AF90BB500801AF8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2F9C09B72AF90BB500801AF8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		2F9C09BE2AF90D9C00801AF8 /* ClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientManager.swift; sourceTree = "<group>"; };
+		2F9C09C12AF90F2600801AF8 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		2F9C09C62AF91A0800801AF8 /* Streamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streamer.swift; sourceTree = "<group>"; };
+		2F9C09C82AF91BD400801AF8 /* StreamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamCell.swift; sourceTree = "<group>"; };
+		2F9C09C92AF91BD400801AF8 /* StreamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StreamCell.xib; sourceTree = "<group>"; };
+		2F9C09D42AF9243100801AF8 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		2F9C09D52AF9243100801AF8 /* PlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		2F9C09DC2AF9269000801AF8 /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
+		2F9C09DD2AF9269000801AF8 /* BroadcastViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BroadcastViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F4377152AF908BD008406DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C09D32AF921C100801AF8 /* MACH-SPS in Frameworks */,
+				2F9C09D02AF9202E00801AF8 /* Kingfisher in Frameworks */,
+				2F9C09BC2AF90D3500801AF8 /* IQKeyboardManagerSwift in Frameworks */,
+				2F9C09C52AF9180E00801AF8 /* netfox in Frameworks */,
+				2F9C09DA2AF924A400801AF8 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F43770F2AF908BD008406DE = {
+			isa = PBXGroup;
+			children = (
+				2F43771A2AF908BD008406DE /* Strimus-Example */,
+				2F4377192AF908BD008406DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F4377192AF908BD008406DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F4377182AF908BD008406DE /* Strimus-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F43771A2AF908BD008406DE /* Strimus-Example */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C09C02AF90F1A00801AF8 /* Models */,
+				2F9C09BD2AF90D8F00801AF8 /* Network */,
+				2F9C09B52AF90BA900801AF8 /* Home */,
+				2F9C09AF2AF90B7E00801AF8 /* Player */,
+				2F9C09DB2AF9266400801AF8 /* Broadcaster */,
+				2F43771B2AF908BD008406DE /* AppDelegate.swift */,
+				2F43771D2AF908BD008406DE /* SceneDelegate.swift */,
+				2F43771F2AF908BD008406DE /* ViewController.swift */,
+				2F4377212AF908BD008406DE /* Main.storyboard */,
+				2F4377242AF908BE008406DE /* Assets.xcassets */,
+				2F4377262AF908BE008406DE /* LaunchScreen.storyboard */,
+				2F4377292AF908BE008406DE /* Info.plist */,
+			);
+			path = "Strimus-Example";
+			sourceTree = "<group>";
+		};
+		2F9C09AF2AF90B7E00801AF8 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C09B02AF90B8A00801AF8 /* List */,
+				2F9C09D42AF9243100801AF8 /* PlayerViewController.swift */,
+				2F9C09D52AF9243100801AF8 /* PlayerViewController.xib */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		2F9C09B02AF90B8A00801AF8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C09B12AF90BA400801AF8 /* StreamListViewController.swift */,
+				2F9C09B22AF90BA400801AF8 /* StreamListViewController.xib */,
+				2F9C09C82AF91BD400801AF8 /* StreamCell.swift */,
+				2F9C09C92AF91BD400801AF8 /* StreamCell.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		2F9C09B52AF90BA900801AF8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C09B62AF90BB500801AF8 /* HomeViewController.swift */,
+				2F9C09B72AF90BB500801AF8 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2F9C09BD2AF90D8F00801AF8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C09BE2AF90D9C00801AF8 /* ClientManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2F9C09C02AF90F1A00801AF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C09C12AF90F2600801AF8 /* Auth.swift */,
+				2F9C09C62AF91A0800801AF8 /* Streamer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F9C09DB2AF9266400801AF8 /* Broadcaster */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C09DC2AF9269000801AF8 /* BroadcastViewController.swift */,
+				2F9C09DD2AF9269000801AF8 /* BroadcastViewController.xib */,
+			);
+			path = Broadcaster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F4377172AF908BD008406DE /* Strimus-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F43772C2AF908BE008406DE /* Build configuration list for PBXNativeTarget "Strimus-Example" */;
+			buildPhases = (
+				2F4377142AF908BD008406DE /* Sources */,
+				2F4377152AF908BD008406DE /* Frameworks */,
+				2F4377162AF908BD008406DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Strimus-Example";
+			packageProductDependencies = (
+				2F9C09BB2AF90D3500801AF8 /* IQKeyboardManagerSwift */,
+				2F9C09C42AF9180E00801AF8 /* netfox */,
+				2F9C09CF2AF9202E00801AF8 /* Kingfisher */,
+				2F9C09D22AF921C100801AF8 /* MACH-SPS */,
+				2F9C09D92AF924A400801AF8 /* SnapKit */,
+			);
+			productName = "Strimus-Example";
+			productReference = 2F4377182AF908BD008406DE /* Strimus-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F4377102AF908BD008406DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2F4377172AF908BD008406DE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F4377132AF908BD008406DE /* Build configuration list for PBXProject "Strimus-Example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F43770F2AF908BD008406DE;
+			packageReferences = (
+				2F9C09BA2AF90D3500801AF8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				2F9C09C32AF9180E00801AF8 /* XCRemoteSwiftPackageReference "netfox" */,
+				2F9C09CE2AF9202E00801AF8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				2F9C09D12AF921C100801AF8 /* XCLocalSwiftPackageReference "../../Strimus" */,
+				2F9C09D82AF924A400801AF8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 2F4377192AF908BD008406DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F4377172AF908BD008406DE /* Strimus-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F4377162AF908BD008406DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C09B42AF90BA400801AF8 /* StreamListViewController.xib in Resources */,
+				2F9C09D72AF9243100801AF8 /* PlayerViewController.xib in Resources */,
+				2F4377282AF908BE008406DE /* LaunchScreen.storyboard in Resources */,
+				2F9C09B92AF90BB500801AF8 /* HomeViewController.xib in Resources */,
+				2F4377252AF908BE008406DE /* Assets.xcassets in Resources */,
+				2F4377232AF908BD008406DE /* Main.storyboard in Resources */,
+				2F9C09DF2AF9269000801AF8 /* BroadcastViewController.xib in Resources */,
+				2F9C09CB2AF91BD400801AF8 /* StreamCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F4377142AF908BD008406DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C09B82AF90BB500801AF8 /* HomeViewController.swift in Sources */,
+				2F9C09B32AF90BA400801AF8 /* StreamListViewController.swift in Sources */,
+				2F9C09BF2AF90D9C00801AF8 /* ClientManager.swift in Sources */,
+				2F4377202AF908BD008406DE /* ViewController.swift in Sources */,
+				2F9C09CA2AF91BD400801AF8 /* StreamCell.swift in Sources */,
+				2F9C09C72AF91A0800801AF8 /* Streamer.swift in Sources */,
+				2F9C09C22AF90F2600801AF8 /* Auth.swift in Sources */,
+				2F43771C2AF908BD008406DE /* AppDelegate.swift in Sources */,
+				2F9C09DE2AF9269000801AF8 /* BroadcastViewController.swift in Sources */,
+				2F43771E2AF908BD008406DE /* SceneDelegate.swift in Sources */,
+				2F9C09D62AF9243100801AF8 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F4377212AF908BD008406DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F4377222AF908BD008406DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F4377262AF908BE008406DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F4377272AF908BE008406DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F43772A2AF908BE008406DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F43772B2AF908BE008406DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F43772D2AF908BE008406DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9DCQQQ59P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Strimus-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machinarium.Strimus-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2F43772E2AF908BE008406DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9DCQQQ59P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Strimus-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machinarium.Strimus-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F4377132AF908BD008406DE /* Build configuration list for PBXProject "Strimus-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F43772A2AF908BE008406DE /* Debug */,
+				2F43772B2AF908BE008406DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F43772C2AF908BE008406DE /* Build configuration list for PBXNativeTarget "Strimus-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F43772D2AF908BE008406DE /* Debug */,
+				2F43772E2AF908BE008406DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2F9C09D12AF921C100801AF8 /* XCLocalSwiftPackageReference "../../Strimus" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Strimus;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F9C09BA2AF90D3500801AF8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.16;
+			};
+		};
+		2F9C09C32AF9180E00801AF8 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
+		2F9C09CE2AF9202E00801AF8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+		2F9C09D82AF924A400801AF8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F9C09BB2AF90D3500801AF8 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F9C09BA2AF90D3500801AF8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		2F9C09C42AF9180E00801AF8 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F9C09C32AF9180E00801AF8 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+		2F9C09CF2AF9202E00801AF8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F9C09CE2AF9202E00801AF8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		2F9C09D22AF921C100801AF8 /* MACH-SPS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "MACH-SPS";
+		};
+		2F9C09D92AF924A400801AF8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F9C09D82AF924A400801AF8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2F4377102AF908BD008406DE /* Project object */;
+}
