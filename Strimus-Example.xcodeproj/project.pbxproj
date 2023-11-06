@@ -31,6 +31,7 @@
 		2F9C09DA2AF924A400801AF8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F9C09D92AF924A400801AF8 /* SnapKit */; };
 		2F9C09DE2AF9269000801AF8 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C09DC2AF9269000801AF8 /* BroadcastViewController.swift */; };
 		2F9C09DF2AF9269000801AF8 /* BroadcastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C09DD2AF9269000801AF8 /* BroadcastViewController.xib */; };
+		2FBD4B612AF937AD0067CF1E /* MACH-SPS in Frameworks */ = {isa = PBXBuildFile; productRef = 2FBD4B602AF937AD0067CF1E /* MACH-SPS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FBD4B612AF937AD0067CF1E /* MACH-SPS in Frameworks */,
 				2F9C09D32AF921C100801AF8 /* MACH-SPS in Frameworks */,
 				2F9C09D02AF9202E00801AF8 /* Kingfisher in Frameworks */,
 				2F9C09BC2AF90D3500801AF8 /* IQKeyboardManagerSwift in Frameworks */,
@@ -186,6 +188,7 @@
 				2F9C09CF2AF9202E00801AF8 /* Kingfisher */,
 				2F9C09D22AF921C100801AF8 /* MACH-SPS */,
 				2F9C09D92AF924A400801AF8 /* SnapKit */,
+				2FBD4B602AF937AD0067CF1E /* MACH-SPS */,
 			);
 			productName = "Strimus-Example";
 			productReference = 2F4377182AF908BD008406DE /* Strimus-Example.app */;
@@ -219,8 +222,8 @@
 				2F9C09BA2AF90D3500801AF8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				2F9C09C32AF9180E00801AF8 /* XCRemoteSwiftPackageReference "netfox" */,
 				2F9C09CE2AF9202E00801AF8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				2F9C09D12AF921C100801AF8 /* XCLocalSwiftPackageReference "../../Strimus" */,
 				2F9C09D82AF924A400801AF8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2FBD4B5F2AF937AD0067CF1E /* XCLocalSwiftPackageReference "../Strimus" */,
 			);
 			productRefGroup = 2F4377192AF908BD008406DE /* Products */;
 			projectDirPath = "";
@@ -497,9 +500,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		2F9C09D12AF921C100801AF8 /* XCLocalSwiftPackageReference "../../Strimus" */ = {
+		2FBD4B5F2AF937AD0067CF1E /* XCLocalSwiftPackageReference "../Strimus" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../Strimus;
+			relativePath = ../Strimus;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -562,6 +565,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2F9C09D82AF924A400801AF8 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		2FBD4B602AF937AD0067CF1E /* MACH-SPS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "MACH-SPS";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -36,7 +36,7 @@ class HomeViewController: ViewController {
     //Auth
     @IBAction func loginSelected(_ sender: Any) {
         guard authCompleted == false else {
-            startBroadcast()
+            askBroadcast()
             return
         }
         guard let text = userField.text, !text.isEmpty else { return }
@@ -60,8 +60,22 @@ class HomeViewController: ViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
     
-    private func startBroadcast() {
+    private func askBroadcast() {
+        let vc = UIAlertController(title: "New Broadcast", message: "Select Provider", preferredStyle: .actionSheet)
+        vc.addAction(.init(title: "AWS", style: .default, handler: { [weak self] _ in
+            self?.startBroadcast(source: .aws)
+        }))
         
+        vc.addAction(.init(title: "Mux", style: .default, handler: { [weak self] _ in
+            self?.startBroadcast(source: .mux)
+        }))
+        present(vc, animated: true)
+    }
+    
+    private func startBroadcast(source: BroadcastSource) {
+        let vc = BroadcastViewController(nibName: "BroadcastViewController", bundle: nil)
+        vc.source = source
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 }
